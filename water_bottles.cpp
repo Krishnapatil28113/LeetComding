@@ -14,16 +14,19 @@
 ---------------------------------------------------------------
 */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int numWaterBottles(int numBottles, int numExchange) {
+    int numWaterBottles(int numBottles, int numExchange)
+    {
         int sum = numBottles;
-        while(numBottles >= numExchange) {
-            sum += numBottles/numExchange;
-            numBottles = numBottles/numExchange + numBottles%numExchange;
+        while (numBottles >= numExchange)
+        {
+            sum += numBottles / numExchange;
+            numBottles = numBottles / numExchange + numBottles % numExchange;
         }
 
         return sum;
