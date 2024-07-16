@@ -4,6 +4,11 @@ You are given a string ‘str’ of even length. Your task is to find out if we 
 
 For Example:
 You are given, ‘str’= ‘codingninjas’, when we split this string we get, ‘coding’ and ‘ninjas’ which both contain 2 vowels each. Hence the answer is ‘True’.
+
+Approach:
+The function splits the string into two halves based on its length, counts the vowels in each half, and returns True if both halves contain an equal number of vowels; otherwise, it returns False.
+Time Complexity: O(n) (where n is the length of the string)
+Space Complexity: O(1)
 '''
 
 from os import *
