@@ -1,7 +1,7 @@
 /*
 # Problem Statement: To rearrange the nodes based on the positions even or odd
 ---------------------------------------------------------------
-# How to think: 
+# How to think:
 * Just need to think carefully about the edge cases or when the iteration ends and when we have to link it to the other half of the linked list
 ---------------------------------------------------------------
 */
